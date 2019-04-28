@@ -1,0 +1,37 @@
+/* CSS Document */
+
+.tbl-head{
+	background: #D3D3D3;
+	padding: 10px;
+	font-size: 16px;
+	font-family: arial;
+}
+.tbl-body{
+	background: #ADC8D7;
+	padding: 10px;
+	font-size: 18px;
+	font-family: arial;
+}
+.edit, .delete{
+	padding: 20px;
+	text-align: center;
+	vertical-align: middle;
+	border-radius: 0 15px 0 0;
+	width: 70px;
+}
+.title{
+	width: 400px;
+}
+.edit{
+	background: #105EE7;
+}
+.delete{
+	background: #E3B700;
+}
+
+.delete:hover a i{
+	color: #E50003;
+}
+.edit:hover a i{
+	color: #ffffff;
+}
